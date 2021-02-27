@@ -262,6 +262,9 @@ span.info-date {
     padding: 10px 0px;
 }
 
+.info-group img {
+    width: 100%;
+}
 .Certificatelable{
  margin: 10px 0px;   
 }
