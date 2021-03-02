@@ -497,10 +497,9 @@ text-transform: uppercase;
         transition: 0.1s ease;
     }
 
-footer{
+.footer_section{
     background: #3e3e3e;
     padding: 10px 50px;
-    align-content: center;
     color: #ffffff;
 }
 
