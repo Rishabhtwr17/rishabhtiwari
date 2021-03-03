@@ -560,9 +560,7 @@ text-transform: uppercase;
 */
 
 @media (max-width:768px) {
-.collapse {
-    display: none; /* set display to none in media querries at xs sxreen */
-} 
+
     .jumbotron{
     background-size: auto;
    }
@@ -571,15 +569,17 @@ text-transform: uppercase;
     } 
         
      h1 {
-        font-size: 4.5em;
+        font-size: 4.2em;
 line-height: 5.8rem;        }
 
     
 }
 
-/*
+
 @media (max-width:767px) {
-    
+    .collapse {
+    display: none; /* set display to none in media querries at xs sxreen */
+} 
 }
    
 }
