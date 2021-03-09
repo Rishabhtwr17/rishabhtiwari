@@ -266,6 +266,14 @@ span.info-date {
  margin: 10px 0px;   
 }
 
+.Certificatelable:hover .info-date{
+background-color: #554488;
+}
+
+.Certificatelable:hover .info-title{
+color: #554488;
+}
+
 .jumbotron{
     background:url(../image/cool-background.svg);
     
