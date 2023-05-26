@@ -1,327 +1,317 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <!-- <meta http-equiv="Content-Type" content="text/html"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Description of the page less than 150 characters">
-    <title>RISHABH TIWARI</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Style sheet of website-->
-    <link href="css/resume.css" rel="stylesheet">
+    <link href="css/Demo type scale.css" rel="stylesheet">
 
-    <!-- Font Icon Library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Fevicon-->
+    <link rel="icon" type="image/x-icon" href="image/rishabh-tiwari-fevicon.png">
 
+    <!-- JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/custom-height.js"></script>
 
-
+    <title>Rishabh Tiwari Portfolio</title>
 </head>
 
 <body>
-<!-- header -->
-<nav>
-    <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-               <div class="navbar-header">
-                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#website-header" 
-                   aria-expanded="false" > 
-                   <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar">Menu</span>
-                    <!-- <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                   -->
-                   </button>
-                   <a class="navbar-brand" href="index.html">Rishabh Tiwari</a>
-               </div>
-                
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collaspe" id="website-header">
-            <ul class="nav navbar-nav navbar-right">
-               
-                <li><a href="certificate.html"> Certificates   </a></li>
-                
-                <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" > 
-                    Portfolio <span class="caret"> </span> </a>
-                <ul class="dropdown-menu">
-                    <li><a href="portfolio.html#LogoProject"> LOGO PROJECTS </a></li>
-                    <li><a href="portfolio.html#UXPROJECTS"> UI UX PROJECTS</a></li>
-                    <li><a href="portfolio.html#GRAPHICPROJECT"> GRAPHIC PROJECTS</a></li>
-                    <li><a href="portfolio.html#POSTERS"> POSTERS</a></li>
-                </ul>
-                
-                </li>
-
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" > 
-                        Download CV <span class="caret"> </span> </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="image/Rishabh Tiwari - Full Cover Letter and Resume - 2023.pdf"> Download Resume </a></li>
-                        <li><a href="image/Rishabh Tiwari - Project Profile - 2023.pdf"> Download Project Profile</a></li>
-                    </ul>
-                    
-                    </li>
-              <!-- <li><a href="contact.html#contact"> Contact </a></li> -->
-            </ul>
-        </div> <!-- /.navbar-collapse -->       
-    </div><!-- /.container-->
-</nav>
-
-
-    <!-- WHO ARE WE Section -->
-    <section id="PROFILE">
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-            <div class="container-data">
-                <div class="row">
-                    <div class="jumbotron">
-                        <h1>PROFILE</h1>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3  col-lg-3 sidebar">
-                        
-                        <div class="leftside">
+            <a class="navbar-brand" href="index.html">Rishabh Tiwari</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-sm-flex justify-content-sm-end " id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">About</a>
+                    </li>
 
-                            <h5>Info</h5>
-                           
-                            <div class="INFO">
-                                <div class="info-group">
-                                    <i class="fa  fa-user fa-2x " aria-hidden="true"></i>
-                                    <div class="info-details">
-                                        <div class="lable"><span class="info-title"> NAME</span></div>
-                                        <div class="info"><span>Rishabh Tiwari</span></div>
-                                    </div>
-                                </div>
-                                <div class="info-group">
-                                    <i class="fa  fa-phone fa-2x " aria-hidden="true"></i>
-                                    <div class="info-details">
-                                        <div class="lable"><span class="info-title"> PHONE</span></div>
-                                        <div class="info"><span>+91 9913614651</span></div>
-                                    </div>
-                                </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Service</a>
+                    </li>
 
-                                <div class="info-group">
-                                    <i class="fa  fa-envelope fa-2x " aria-hidden="true"></i>
-                                    <div class="info-details">
-                                        <div class="lable"><span class="info-title"> EMAIL</span></div>
-                                        <div class="info"><span>rishabhtwr17@gmail.com</span></div>
-                                    </div>
-                                </div>
+                    <li class="nav-item">
+                        <a class="nav-link " href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Work
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="experience.html">My Experience</a></li>
+                            <li><a class="dropdown-item" href="project-profile.html">Project Profile</a></li>
+                        </ul>
+                    </li>
 
-                                <div class="info-group">
-                                    <i class="fa  fa-location-arrow fa-2x " aria-hidden="true"></i>
-                                    <div class="info-details">
-                                        <div class="lable"><span class="info-title"> ADDRESS</span></div>
-                                        <div class="info"><span>VAPI, GUJARAT</span></div>
-                                    </div>
-                                </div>
-                
-                                 <h5>Education</h5>
-                        <div class="info-group">
-                            <div class="info-details">
-                                <div class="lable"><span class="info-date"> 2017</span><span class="info-title"> GRADUATION</span></div>
-                                <div class="info info-graduation"><span>I have completed my Bachelor of Engineering (B.E.) in the feild of Information and Technology (I.T.) from Noble Group of Institution (N.G.I.) from Gujarat Technological University with 9.19 ( SPI ),8.48 ( CPI ) and 8.72 ( CGPA ).</span></div>
-                            </div>
-                        </div>
-                        <div class="info-group">
-                            <div class="info-details">
-                                <div class="lable"><span class="info-date"> 2013</span><span class="info-title">SCHOOL</span></div>
-                                <div class="info info-graduation"><span>I have completed my Higher Secondary School (H.S.C.) and Secondary School (S.S.C.) from Shree Swaminarayan Gurukul, Salvav - C.B.S.E. BOARD. </span></div>
-                            </div>
-                        </div>
-                                <h5>Let's Connect</h5>
-                                <div class="social-group side-group">
-                                    <a href="https://www.facebook.com/rishabhtwr17"><i class="fa  fa-facebook  fa-2x" aria-hidden="true"></i> </a>
-                                    <a href="https://twitter.com/rishabhtwr17/"> <i class="fa fa-twitter  fa-2x" aria-hidden="true"></i></a>
-                                    <a href="https://www.instagram.com/rishabhtwr17/"> <i class="fa fa-instagram  fa-2x" aria-hidden="true"></i> </a>
-                                    <a href="https://www.behance.net/rishabhtwr17"> <i class="fa fa-behance fa-2x" aria-hidden="true"></i> </a>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="dropdown">
+                        <button class="btn btn-main dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Downloads
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item"
+                                    href="image/Rishabh Tiwari - Full Cover Letter and Resume - 2023.pdf">Download Full
+                                    Resume</a></li>
+                            <li><a class="dropdown-item"
+                                    href="image/Rishabh Tiwari - Project Profile - 2023.pdf">Download Project
+                                    Profiles</a></li>
+                        </ul>
                     </div>
 
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col-md-push-6  col-lg-push-6  sidebar">
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-                        <h5>ABOUT MYSELF</h5>
-                     <div class="info-group">
-                               <img alt="profile photo" src="image/rishabh.png">
-                            </div>
-                        <div class="info-group">
-                               <div class="info-details">
-                                        <div class="lable"><span class="info-title"> BIO</span></div>
-                                        <div class="info"><span>As an IT graduate with expertise in UI design and front-end development using HTML, CSS, and 
-                                            Bootstrap, I possess a strong work ethic, leadership experience, and creative aptitude. I am eager to 
-                                            contribute my skills towards supporting the growth of an organization and delivering impactful results.<br><br></span></div>
-                            </div></div>
-                        <div class="info-group">
-                               <div class="info-details">
-                                        <div class="lable"><span class="info-title"> KEY HIGHLIGHTS</span></div>
-                            
-                            <div class="info"><span>My expertise lies in successfully conceptualizing, designing, and modifying my background has enabled me to excel in making consumer-friendly and on-trend products to achieve customer objectives and preferences, resulting in accelerated client revenues. <br><br>As an adept problem solver, I would make a valuable addition to your team due to my diligent nature when it comes to successfully completing tasks and ensuring positive end-user experiences.<br><br>With  my  ability  to   collaborate  effectively with clients, peers, and senior management teams— I am confident that my talents and abilities will significantly benefit to your organization.</span></div>
-                                    </div>
-                                </div>
-                    </div>
-                   
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-lg-pull-3 col-md-pull-3  sidebar">
-
-                        <h5>Work Experience</h5>
-                        <div class="info-group">
-                            <div class="info-details">
-                                <div class="lable"><span class="info-date"> 2022 TO CURRENT</span><span class="info-title"> UI / UX Developer</span></div>
-                                <div class="info info-internship"><span>INFOCEPTS TECHNOLOGIES PVT. LTD.</span></div>
-                                <div>
-                                    <p> During my time at Infocepts, I designed and developed www.infocepts.com using my extensive 
-                                        experience in HTML, CSS, and responsive design. I ensured that the website was mobile-friendly 
-                                        and accessible on multiple devices by implementing design principles. I also optimized website 
-                                        performance and ensured cross-browser compatibility by writing clean and efficient code. 
-                                        Through my attention to detail and commitment to best practices, I delivered an engaging and 
-                                        seamless user experience that exceeded client expectations.
-                                          </p>
-                                </div>
-                            </div>
-                        </div>
-
-                         <div class="info-group">
-                            <div class="info-details">
-                                <div class="lable"><span class="info-date"> 2021 TO 2022</span><span class="info-title"> UI / UX Developer</span></div>
-                                <div class="info info-internship"><span>JEWEL PRO-TECH PVT. LTD.</span></div>
-                                <div>
-                                    <p> While working at Jewel Pro Tech Pvt. Ltd., I was responsible for designing user-friendly interfaces for the web. Using my expertise in HTML, CSS, and responsive design, I created intuitive UI designs for the website www.diamondicq.com, and implemented them with a focus on performance and compatibility. By utilizing my skills in UI design and front-end development, I delivered visually appealing and highly functional user interfaces that exceeded expectations.  </p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="info-group">
-                            <div class="info-details">
-                                <div class="lable"><span class="info-date"> 2017 TO 2021</span><span class="info-title"> CO FOUNDER and EDUCATOR</span></div>
-                                <div class="info info-internship"><span>ANGEL CONVENT SCHOOL</span></div>
-                                <div>
-                                    <p>As the founder of an educational institute aimed at improving foundational learning for rural 
-                                        students, I have developed a website to showcase our educational tools. I utilized my skills in 
-                                        HTML, CSS, and responsive design to create a user-friendly interface for our website that is 
-                                        accessible on multiple devices</p>
-                                        <p>Additionally, I attempted to create a learning platform using WordPress to enhance critical 
-                                            thinking, language understanding, and mathematical skills. However, due to cost constraints, I 
-                                            had to find an alternative solution. Instead, I focused on creating interactive interfaces for our 
-                                            educational tools using the aforementioned technologies. This experience has allowed me to 
-                                            further refine my front-end development skills while contributing to the education sector in a 
-                                            meaningful way.</p>
-                                </div>
-                            </div>
-                        </div>
-                          
-                        <div class="info-group">
-                            <div class="info-details">
-                                <div class="lable"><span class="info-date"> 2017 TO 2021</span><span class="info-title"> GRAPHIC AND UI DESIGNER.</span></div>
-                                <div class="info info-internship"><span>FREELANCING AND REMOTE WORK.</span></div>
-                                <div>
-                                    <p>As a freelance Graphic and UI Designer, I have continued to develop my skills in the technology 
-                                        domain while also running my school. I have had the opportunity to work on a wide range of 
-                                        projects, including designing logos, creating branding materials, and developing interfaces for 
-                                        mobile and web applications.</p>
-                                        <p>Through my work, I have gained experience in utilizing tools such as Adobe Photoshop, 
-                                            Illustrator, and Figma to create visually appealing and functional designs. Additionally, my 
-                                            experience as a school owner has provided me with unique insights into designing interfaces for 
-                                            educational tools, allowing me to create engaging and effective designs for learning platforms. </p>
-                                </div>
-                            </div>
-                        </div>
-                 
-                                 <div class="info-group">
-                            <div class="info-details">
-                                <div class="lable"><span class="info-date"> 2017 - 2018</span><span class="info-title"> VISUAL AND UI-UX DESIGNER</span></div>
-                                <div class="info info-internship"><span>THE CLIMBER KNOWLEDGE PVT. LTD.</span></div>
-                                <div>
-                                    <p>During my time at The Climber as a UI/UX Designer and Visual, I simultaneously worked on 
-                                        analyzing user experience as a part of the UX team, and creating graphical assets like posters, 
-                                        flyers, logos, UI screens as a part of the Design team.</p>
-                                        <p> Additionally, I contributed to the creation of graphic assets for the Indian Youth Conclave events 
-                                        in 2016 and 2017. My ability to balance both design and user experience responsibilities allowed 
-                                        me to create engaging and visually appealing interfaces while meeting user needs.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="info-group">
-                            <div class="info-details">
-                                <div class="lable"><span class="info-date"> 2017</span><span class="info-title"> GRAPHIC AND UI-UX DESIGNER</span></div>
-                                <div class="info info-internship"><span>Graphic and UI Designer At Ediome.</span></div>
-                                <div>
-                                    <p>As a Graphic and UI Designer at Ediome, I was responsible for creating compelling visual designs 
-                                        and building effective design systems. My work involved designing identity systems and creating 
-                                        supporting graphics to ensure consistency and coherence across various design assets.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                         <div class="info-group">
-                            <!-- <i class="fa  fa-location-arrow fa-2x " aria-hidden="true"></i>
-                               -->
-                            <div class="info-details">
-                                <div class="lable"><span class="info-date"> 2016 - 2017</span><span class="info-title"> UI-UX DESIGNER.</span></div>
-                                <div class="info info-internship"><span>UI-UX Designer At Infinity Infoway Pvt. Ltd.</span></div>
-                                <div>
-                                    <p>As a UI/UX Designer at IIPL, I have created various design-based projects, including UI designs for 
-                                        mobile applications and websites, as well as redesigns for existing applications. One notable 
-                                        project I worked on was creating a UI design for an application for Patel Tour and Travel. My role 
-                                        involved conducting user research and using design tools such as Figma and Adobe Creative Suite 
-                                        to develop intuitive and visually appealing interfaces that meet user needs.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="info-group">
-                            <!-- <i class="fa  fa-location-arrow fa-2x " aria-hidden="true"></i>
-                               -->
-                            <div class="info-details">
-                                <div class="lable"><span class="info-date"> 2016 - 2017</span><span class="info-title"> Graphic Designer</span></div>
-                                <div class="info info-internship"><span>VISUAL DESIGNING - FREELANCING WORK</span></div>
-                                <div>
-                                    <p>As a freelance graphic designer, I created visually appealing designs for various clients across 
-                                        diverse industries using Adobe Creative Suite. I developed my ability to communicate effectively 
-                                        with clients and gained a deeper understanding of the design process.
-                                        </p>
-                                </div>
-                            </div>
-                        </div>
-
+    <!-- About Us- Section 1 - About Me -->
+    <div class="">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-6 col-md-4 p-0 custom-data">
+                    <img src="image/Rishabh-Tiwari-Hero-Image.jpg" class="img-fluid border-0 " alt="">
+                </div>
+                <div
+                    class="col-12 col-lg-6 col-md-8 px-3 px-sm-5  custom-padding d-flex flex-column justify-content-center">
+                    <h6 class="fw-bold">About Me</h6>
+                    <h2>A UI/UX Designer & Web Developer Based in India</h2>
+                    <p>I am an IT graduate with expertise in UI design and front-end development using HTML, CSS, and
+                        Bootstrap. I have a strong work ethic, leadership experience, and creative aptitude. </p>
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item text_small pb-0">Name - Rishabh Tiwari</li>
+                        <li class="list-group-item text_small pb-0">E Mail - rishabhtwr17@gmail.com</li>
+                        <li class="list-group-item text_small pb-0">Contact Number - +91 99136 14651.</li>
+                    </ul>
+                    <div>
+                        <a href="#"> <button type="button" class="btn btn-main">Download Resume</button></a>
 
                     </div>
-
-                  <div class="gotoTop">
-                      <a href="index.html#PROFILE"><button> <i class="fa  fa-arrow-up fa-2x " aria-hidden="true"></i></button></a>
-                  </div>
                 </div>
             </div>
         </div>
-    </section>
-    
- 
+    </div>
+
+    <!-- About Us- Section 2 - My Skills -->
+    <div class="container custom-padding">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-start text-sm-center  mb-3">My Skills</h1>
+                <h5 class="d-none d-sm-block text-start text-sm-center ">I possess a diverse range of skills and
+                    expertise, including
+                    effective
+                    communication, problem-solving, leadership, adaptability, and a strong work ethic.</h5>
+                <p class="d-sm-none ">I possess a diverse range of skills and expertise, including
+                    effective
+                    communication, problem-solving, leadership, adaptability, and a strong work ethic.</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+
+            <div class="position-relative mb-3 col-6 col-md-4">
+                <p class="fw-bold mb-1 text_small">Adobe Photoshop</p>
+                <div class="progress mb-2" style="height:1.5rem;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="position-relative mb-3 col-6 col-md-4">
+                <p class="fw-bold mb-1 text_small">Adobe Illustrator</p>
+                <div class="progress mb-2" style="height:1.5rem;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="position-relative mb-3 col-6 col-md-4">
+                <p class="fw-bold mb-1 text_small">Adobe Indesign</p>
+                <div class="progress mb-2" style="height:1.5rem;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="position-relative mb-3 col-6 col-md-4">
+                <p class="fw-bold mb-1 text_small">HTML 5</p>
+                <div class="progress mb-2" style="height:1.5rem;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <span>90%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="position-relative mb-3 col-6 col-md-4">
+                <p class="fw-bold mb-1 text_small">CSS 3</p>
+                <div class="progress mb-2" style="height:1.5rem;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <span>90%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="position-relative mb-3 col-6 col-md-4">
+                <p class="fw-bold mb-1 text_small">Javascript</p>
+                <div class="progress mb-2" style="height:1.5rem;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <span>60%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="position-relative mb-3 col-6 col-md-4">
+                <p class="fw-bold mb-1 text_small">Figma</p>
+                <div class="progress mb-2" style="height:1.5rem;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="position-relative mb-3 col-6 col-md-4">
+                <p class="fw-bold mb-1 text_small">Balsamiq</p>
+                <div class="progress mb-2" style="height:1.5rem;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <span>95%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="position-relative mb-3 col-6 col-md-4">
+                <p class="fw-bold mb-1 text_small">React JS</p>
+                <div class="progress mb-2" style="height:1.5rem;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <span>50%</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About Us- Section 3 - You are in good company -->
+    <div class="container custom-padding">
+        <div class="row d-flex align-items-center">
+            <div class="col-12 col-md-8">
+                <h2>You’re in good company</h2>
+                <h6 class="mb-4 mb-lg-5">I have delivered exceptional results while collaborating with prestigious
+                    organizations, showcasing
+                    my ability to excel and contribute to their success.</h6>
+            </div>
+            <div class="col-12">
+                <div class="d-flex flex-wrap">
+                    <div class="col-4 col-md-2  pe-2 py-2">
+                        <img src="image/logo/company-logo/1 - Infocepts-Data-AI-logo.png" class="img-fluid border-0"
+                            alt="Infocepts Logo">
+                    </div>
+                    <div class="col-4 col-md-2 pe-2 py-2">
+                        <img src="image/logo/company-logo/2- Climber Logo.png" class="img-fluid border-0"
+                            alt="Climber Logo">
+                    </div>
+                    <div class="col-4 col-md-2 pe-2 py-2">
+                        <img src="image/logo/company-logo/3 - IIPL Logo.png" class="img-fluid border-0" alt="IIPL Logo">
+                    </div>
+                    <div class="col-4 col-md-2 pe-2 py-2">
+                        <img src="image/logo/company-logo/4 - Jewel Pro Tech Logo.png" class="img-fluid border-0"
+                            alt="Jewel Pro Tech Logo">
+                    </div>
+                    <div class="col-4 col-md-2 pe-2 py-2">
+                        <img src="image/logo/company-logo/5 - DICQ Logo.png" class="img-fluid border-0"
+                            alt="Diamond ICQ Logo">
+                    </div>
+
+                    <div class="col-4 col-md-2 pe-2 py-2">
+                        <img src="image/logo/company-logo/6 - RECT Logo.png" class="img-fluid border-0"
+                            alt="Rishabh Education Charitable Trust Logo">
+                    </div>
+                    <div class="col-4 col-md-2 pe-2 py-2">
+                        <img src="image/logo/company-logo/7 - Ediome Logo.png" class="img-fluid border-0"
+                            alt="Ediome Logo">
+                    </div>
+                    <div class="col-4 col-md-2 pe-2 py-2">
+                        <img src="image/logo/company-logo/8 - Angel Convent School Logo.png" class="img-fluid border-0"
+                            alt="Angel Convent School Logo">
+                    </div>
+                    <div class="col-4 col-md-2 pe-2 py-2">
+                        <img src="image/logo/company-logo/9 - Anant Preschool Logo.png" class="img-fluid border-0"
+                            alt="Anant Preschool Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bottom Section - BG Divider -->
+    <div class="bottom-section">
+        <div class="container custom-padding-bottom">
+            <div class="row d-flex  justify-content-center">
+                <div class="col-10">
+                    <h6 class="text-center mb-4 ">Let's connect! Email or call me to explore how I can enhance your
+                        team's achievements and contribute to your success.</h6>
+                    <div class="d-flex align-items-center justify-content-center gap-3">
+                        <a href="tel:+919913614651"> <button type="button" class="btn btn-secondary">Call
+                                Me</button></a>
+                        <p class="extra_small m-0">OR</p>
+                        <a href="mailto:rishabhtwr17@gmail.com"><button type="button" class="btn btn-secondary">Email
+                                Me</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- FOOTER -->
     <footer class="footer_section" id="footer">
-                 <div class="copyright">
-                <span class="info-title"> &copy; 2021 - Rishabh Tiwari</span>
-  </div>
-  
-        
+        <div class="copyright p-2 d-flex justify-content-center">
+            <span class="extra_small"> &copy
+                <span id="footer_date"> YYYY</span> - Rishabh Tiwari
+            </span>
+        </div>
     </footer>
 
 
-    
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-1.11.2.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js"></script>
+    <script>
+        const footer_year = new Date();
+        document.getElementById("footer_date").innerHTML = footer_year.getFullYear();
+    </script>
+    <!-- (Optional) - Place this js code after initializing bootstrap.min.js or bootstrap.bundle.min.js -->
+    <script>
+        var triggerEl = document.querySelector('#navId a')
+        bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
+    </script>
 
-    <!-- jQuery for equal div height -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js'></script>
 
-    <script src="js/equ_height.js"></script>
 
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

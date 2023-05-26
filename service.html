@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Style sheet of website-->
+    <link href="css/Demo type scale.css" rel="stylesheet">
+
+    <!-- Fevicon-->
+    <link rel="icon" type="image/x-icon" href="image/rishabh-tiwari-fevicon.png">
+
+
+    <!-- JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/custom-height.js"></script>
+
+
+    <title>Rishabh Tiwari Portfolio</title>
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Rishabh Tiwari</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-sm-flex justify-content-sm-end " id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="service.html">Service</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Work
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="experience.html">My Experience</a></li>
+                            <li><a class="dropdown-item" href="project-profile.html">Project Profile</a></li>
+                        </ul>
+                    </li>
+
+                    <div class="dropdown">
+                        <button class="btn btn-main dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Downloads
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item"
+                                    href="image/Rishabh Tiwari - Full Cover Letter and Resume - 2023.pdf">Download Full
+                                    Resume</a></li>
+                            <li><a class="dropdown-item"
+                                    href="image/Rishabh Tiwari - Project Profile - 2023.pdf">Download Project
+                                    Profiles</a></li>
+                        </ul>
+                    </div>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- About Us- Section 2 - My Skills -->
+    <div class="container custom-padding">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center  mb-3">What I Do</h1>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <!--Service 1-->
+            <div class="col-12 col-md-6 col-lg-4 service_UICard mb-4 ">
+                <div class="service-bg  d-flex justify-content-center align-items-center flex-column">
+                    <div
+                        class="mb-4 service_container position-relative d-flex justify-content-center align-items-center">
+                        <div class=" rotate linear infinite service_blob">
+                            <img src="image/svg/blob/blob_UI.svg" class="img-fluid rounded-top" alt="UI UX Blob" />
+                        </div>
+
+                        <div class=" zoom linear infinite service_image position-absolute">
+                            <img src="image/svg/icons/UI UX.svg" class="img-fluid rounded-top" alt="UI UX Icon" />
+                        </div>
+                    </div>
+
+                    <h6 class="fw-bold mb-1 text-center mb-2 cal-height-2 service-text-center ">UI/UX Design</h6>
+                    <p class="fw-bold mb-1 text-center text_small cal-height-1 service-text-center">Creating Engaging
+                        Digital Experiences
+                    </p>
+
+                    <p class="text-center text_small cal-height-3"> Creating user-friendly and visually appealing
+                        interfaces for
+                        exceptional digital experiences. Expertise in UI/UX design and development, crafting engaging
+                        solutions that captivate and satisfy users. </p>
+                </div>
+            </div>
+
+            <!--Service 2-->
+            <div class="col-12 col-md-6 col-lg-4 service_UICard mb-4 ">
+                <div class="service-bg  d-flex justify-content-center align-items-center flex-column">
+                    <div
+                        class="mb-4 service_container position-relative d-flex justify-content-center align-items-center">
+                        <div class=" rotate linear infinite service_blob">
+                            <img src="image/svg/blob/blob_FD.svg" class="img-fluid rounded-top" alt="Front End Icon" />
+                        </div>
+
+                        <div class="zoom linear infinite service_image position-absolute">
+                            <img src="image/svg/icons/Front end.svg" class="img-fluid rounded-top"
+                                alt="Front End Icon" />
+                        </div>
+
+                    </div>
+                    <h6 class="fw-bold mb-1 text-center mb-2 cal-height-2 service-text-center">Front End Development
+                    </h6>
+                    <p class="fw-bold mb-1 base text-center  text_small cal-height-1 service-text-center">Creating
+                        Engaging &amp Responsive
+                        Websites
+                    </p>
+
+                    <p class="text-center text_small cal-height-3"> Creating engaging and responsive websites using
+                        HTML, CSS,
+                        JavaScript, and Bootstrap. Bringing designs to life for seamless user experiences across devices
+                        and
+                        screen sizes.</p>
+                </div>
+            </div>
+
+            <!--Service 3-->
+            <div class="col-12 col-md-6 col-lg-4 service_UICard mb-4 ">
+                <div class="service-bg  d-flex justify-content-center align-items-center flex-column">
+
+                    <div
+                        class="mb-4 service_container position-relative d-flex justify-content-center align-items-center">
+                        <div class=" rotate linear infinite service_blob">
+                            <img src="image/svg/blob/blob_MA.svg" class="img-fluid rounded-top" alt="Mobile App Icon" />
+                        </div>
+
+                        <div class="zoom linear infinite service_image position-absolute">
+                            <img src="image/svg/icons/mobile app ui.svg" class="img-fluid rounded-top"
+                                alt="Mobile App Icon" />
+                        </div>
+
+                    </div>
+                    <h6 class="fw-bold mb-1 text-center mb-2 cal-height-2 service-text-center">Mobile App UI Design</h6>
+                    <p class="fw-bold mb-1 base text-center   text_small cal-height-1 service-text-center">Crafting
+                        Intuitive UIs</p>
+
+                    <p class="text-center text_small cal-height-3"> Crafting visually stunning and intuitive user
+                        interfaces for
+                        mobile
+                        apps. Focus on user experience and attention to detail, enhancing usability and captivating
+                        users
+                        for engaging and memorable experiences.</p>
+                </div>
+            </div>
+
+            <!--Service 4-->
+
+
+            <div class="col-12 col-md-6 col-lg-4 service_UICard mb-4 ">
+                <div class="service-bg  d-flex justify-content-center align-items-center flex-column">
+                    <div
+                        class="mb-4 service_container position-relative d-flex justify-content-center align-items-center">
+                        <div class=" rotate linear infinite service_blob">
+                            <img src="image/svg/blob/blob_GD.svg" class="img-fluid rounded-top"
+                                alt="Graphic Design Icon" />
+                        </div>
+
+                        <div class="zoom linear infinite service_image position-absolute">
+                            <img src="image/svg/icons/Graphic Design.svg" class="img-fluid rounded-top"
+                                alt="Graphic Design Icon" />
+                        </div>
+                    </div>
+                    <h6 class="fw-bold mb-1 text-center mb-2 cal-height-2 service-text-center">Graphic Design</h6>
+                    <p class="fw-bold mb-1 base text-center   text_small cal-height-1 service-text-center">Designing
+                        Impactful Marketing
+                        Materials</p>
+
+                    <p class="text-center text_small cal-height-3"> Designing impactful marketing materials that leave a
+                        lasting
+                        impression. Aesthetically pleasing visuals and creative storytelling to effectively communicate
+                        messages and elevate brands.</p>
+                </div>
+            </div>
+            <!--Service 5-->
+
+
+            <div class="col-12 col-md-6 col-lg-4 service_UICard mb-4 ">
+                <div class="service-bg  d-flex justify-content-center align-items-center flex-column">
+                    <div
+                        class="mb-4 service_container position-relative d-flex justify-content-center align-items-center">
+                        <div class=" rotate linear infinite service_blob">
+                            <img src="image/svg/blob/blob_BD.svg" class="img-fluid rounded-top" alt="Branding Icon" />
+                        </div>
+
+                        <div class="zoom linear infinite service_image position-absolute">
+                            <img src="image/svg/icons/Branding.svg" class="img-fluid rounded-top" alt="Branding Icon" />
+                        </div>
+
+                    </div>
+                    <h6 class="fw-bold mb-1 text-center mb-2 cal-height-2 service-text-center">Branding</h6>
+                    <p class="fw-bold mb-1 base text-center   text_small cal-height-1 service-text-center">Creating
+                        Compelling Visual
+                        Identities</p>
+
+                    <p class="text-center text_small cal-height-3"> Creating compelling visual identities that resonate
+                        with target
+                        audiences. Research, strategy, and creative design to develop brand assets that reflect essence
+                        and
+                        values, helping businesses stand out. </p>
+                </div>
+            </div>
+
+            <!--Service 6-->
+
+            <div class="col-12 col-md-6 col-lg-4 service_UICard mb-4 ">
+                <div class="service-bg  d-flex justify-content-center align-items-center flex-column">
+
+                    <div
+                        class="mb-4 service_container position-relative d-flex justify-content-center align-items-center">
+                        <div class=" rotate linear infinite service_blob">
+                            <img src="image/svg/blob/Blob_SL.svg" class="img-fluid rounded-top"
+                                alt="Strategic Leadership Icon" />
+                        </div>
+
+                        <div class="zoom linear infinite service_image position-absolute">
+                            <img src="image/svg/icons/Strategic Leadership and Mentorship.svg"
+                                class="img-fluid rounded-top" alt="Strategic Leadership Icon" />
+                        </div>
+
+                    </div>
+                    <h6 class="fw-bold mb-1 text-center mb-2 cal-height-2 service-text-center">Leadership &amp
+                        Mentorship</h6>
+                    <p class="fw-bold mb-1 base text-center   text_small cal-height-1 service-text-center">Guiding Teams
+                        towards Success</p>
+
+                    <p class="text-center text_small cal-height-3">Guiding individuals and teams towards success through
+                        effective
+                        communication, strategic thinking, and personalized mentoring. Nurturing talent, fostering
+                        growth,
+                        and driving collective success for thriving and goal-achieving environments.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bottom Section - BG Divider -->
+    <div class="bottom-section">
+        <div class="container custom-padding-bottom">
+            <div class="row d-flex  justify-content-center">
+                <div class="col-10">
+                    <h6 class="text-center mb-4 ">Take the next step in collaborating with me. Give me a call or
+                        email,
+                        and let's discuss how I
+                        can contribute to your team's success.</h6>
+                    <div class="d-flex align-items-center justify-content-center gap-3">
+                        <a href="tel:+919913614651"> <button type="button" class="btn btn-secondary">Call
+                                Me</button></a>
+                        <p class="extra_small m-0">OR</p>
+                        <a href="mailto:rishabhtwr17@gmail.com"><button type="button" class="btn btn-secondary">Email
+                                Me</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer_section" id="footer">
+        <div class="copyright p-2 d-flex justify-content-center">
+            <span class="extra_small"> &copy
+                <span id="footer_date"> YYYY</span> - Rishabh Tiwari
+            </span>
+        </div>
+    </footer>
+
+
+
+    <script>
+        const footer_year = new Date();
+        document.getElementById("footer_date").innerHTML = footer_year.getFullYear();
+    </script>
+    <!-- (Optional) - Place this js code after initializing bootstrap.min.js or bootstrap.bundle.min.js -->
+    <script>
+        var triggerEl = document.querySelector('#navId a')
+        bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
+    </script>
+
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
