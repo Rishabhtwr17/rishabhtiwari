@@ -9,12 +9,15 @@
   --primary-color: #00b894;
   --second-color: #ccf0e9;
 }
+.mybg {
+  background-color: var(--primary-color);
+}
+.text-green {
+  color: var(--primary-color);
+}
 
 html {
   font-size: var(--base-size);
-}
-.mybg {
-  background-color: var(--primary-color);
 }
 
 body {
