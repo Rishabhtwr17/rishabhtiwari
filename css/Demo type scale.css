@@ -15,15 +15,7 @@
 .text-green {
   color: var(--primary-color);
 }
-ul.skill-tag li p:not(:first-child, :last-child)::after {
-  content: "/";
-  padding: 0 6px;
-  font-size: 0.6rem;
-}
-ul.skill-tag li p:first-child::after {
-  content: ":";
-  padding: 0 6px;
-}
+
 html {
   font-size: var(--base-size);
 }
@@ -197,6 +189,18 @@ small,
   right: 45%;
   top: 0px;
   border-radius: 4px;
+}
+
+/* Skill tag css*/
+
+ul.skill-tag li p:not(:first-child, :last-child)::after {
+  content: "/";
+  padding: 0 6px;
+  font-size: 0.6rem;
+}
+ul.skill-tag li p:first-child::after {
+  content: ":";
+  padding: 0 6px;
 }
 
 .company-card {
