@@ -4,7 +4,7 @@
   --base-size: 16px;
   --nav-background-colour: #2c3a47;
   --background-colour: #fdfdfd;
-  /* --text-color: #373737; */
+  /* --text-color: #373737;  */
   --text-color: #2c3a47;
   --primary-color: #00b894;
   --second-color: #ccf0e9;
@@ -203,6 +203,7 @@ ul.skill-tag li p:first-child::after {
   padding: 0 6px;
 }
 
+/* Company Cards css*/
 .company-card {
   border: 1px solid #373737;
 }
