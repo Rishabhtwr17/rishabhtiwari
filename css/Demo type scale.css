@@ -23,7 +23,6 @@ ul.skill-tag li p:not(:first-child, :last-child)::after {
 ul.skill-tag li p:first-child::after {
   content: ":";
   padding: 0 6px;
-  font-size: 0.6rem;
 }
 html {
   font-size: var(--base-size);
