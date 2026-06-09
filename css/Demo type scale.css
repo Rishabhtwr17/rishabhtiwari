@@ -338,7 +338,7 @@ ul.skill-tag li p:first-child::after {
 
 .portfolio_image .tab {
   display: inline-block;
-  padding: 6px 16px;
+  padding: 6px 12px;
   margin-right: 12px;
   cursor: pointer;
 }
@@ -436,6 +436,10 @@ ul.skill-tag li p:first-child::after {
   .flip {
     transform: rotate(0deg);
   }
+.portfolio_image .tab {
+  margin-bottom: 8px;
+ }
+ 
 }
 
 /* XX-Large devices (larger desktops, 1600px and up) */
